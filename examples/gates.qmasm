@@ -20,13 +20,13 @@ $Y $a1 -0.1818
 
 # 2-input OR gate (Y = A or B)
 !begin_macro or2
-$A  0.3333
-$B  0.3333
-$Y -0.6667
+$A  0.5
+$B  0.5
+$Y  0.5
 
-$A $B  0.3333
-$A $Y -0.6667
-$B $Y -0.6667
+$A $B  0.5
+$A $Y -1.0
+$B $Y -1.0
 !end_macro or2
 
 # 1-input NOT gate (Y = not A)
